@@ -7,7 +7,7 @@
 
 def main():
     # This function is the main function
-    
+
     counter = 0
     number_sum = 0
 
@@ -24,9 +24,10 @@ def main():
             counter = counter + 1
         print("The sum is {0}".format(number_sum))
     except Exception:
-            print("That Isn't an Integer!")
+        print("That Isn't an Integer!")
     finally:
-            print("\nDone")
+        print("\nDone")
+
 
 if __name__ == "__main__":
     main()
